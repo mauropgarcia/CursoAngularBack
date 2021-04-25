@@ -1,1 +1,74 @@
 
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "Novo titulo do post",
+      "autor": "jose",
+      "id": 2
+    },
+    {
+      "title": "novo post",
+      "autor": "mauro",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Mauro Garcia 23",
+      "nascimento": "2021-04-22",
+      "idade": "43",
+      "senha": "123456"
+    },
+    {
+      "nome": "Novo Usuário",
+      "nascimento": "2021-04-09",
+      "idade": 32,
+      "senha": null,
+      "id": 3
+    },
+    {
+      "nome": "Outro Usuario",
+      "nascimento": "2021-04-09",
+      "idade": 89,
+      "senha": null,
+      "id": 4
+    },
+    {
+      "nome": "Usuario cod 2",
+      "nascimento": null,
+      "idade": null,
+      "senha": null,
+      "id": 5
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Curso de Angular 3",
+      "validade": "2021-12-05",
+      "preco": 1550.5
+    },
+    {
+      "nome": "Curso de VS Code ",
+      "validade": "2021-04-26",
+      "preco": 133,
+      "id": 4
+    }
+  ]
+}
